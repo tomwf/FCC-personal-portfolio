@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Personal Portfolio</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha512-u7ppO4TLg4v6EY8yQ6T6d66inT0daGyTodAi6ycbw9+/AU8KMLAF7Z7YGKPMRA96v7t+c7O1s6YCTGkok6p9ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="style.css" media="all">
+
+  <!-- Test -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+
+  <!-- The code below is to validate media query test from inline style -->
+  <style>
+    @media (min-width: 730px) {
+      .project-img-container {
+        height: 50vw;
+        max-height: 30vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <li><a class="nav-link" href="#welcome-section">About</a></li>
+        <li><a class="nav-link" href="#work">Work</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="welcome-section">
+      <h1>Hey I am Mimic</h1>
+      <p>a web developer</p>
+    </section>
+
+    <section id="work">
+      <h2>These are some of my projects</h2>
+      <div id="projects">
+        <a class="project-link" href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank">
+          <div class="project-tile">
+            <div class="project-img-container">
+              <img class="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="Tribute Page">
+            </div>
+            <div class="project-title-container">
+              <p class="title">Tribute Page</p>
+            </div>
+          </div>
+        </a>
+        <div class="project-tile">
+          <a class="project-link" href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank">
+            <div class="project-img-container">
+              <img class="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="Random Quote Machine">
+            </div>
+            <div class="project-title-container">
+              <p class="title">Random Quote Machine</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="project-link" href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank">
+            <div class="project-img-container">
+              <img class="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="Javascript Calculator">
+            </div>
+            <div class="project-title-container">
+              <p class="title">Javascript Calculator</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="project-link" href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank">
+            <div class="project-img-container">
+              <img class="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="Map Data Across the Globe">
+            </div>
+            <div class="project-title-container">
+              <p class="title">Map Data Across the Globe</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="project-link" href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank">
+            <div class="project-img-container">
+              <img class="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="Wikipedia Viewer">
+            </div>
+            <div class="project-title-container">
+              <p class="title">Wikipedia Viewer</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="project-link" href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank">
+            <div class="project-img-container">
+              <img class="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="Tic Tac Toe Game">
+            </div>
+            <div class="project-title-container">
+              <p class="title">Tic Tac Toe Game</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <a id="show-all" href="https://codepen.io/FreeCodeCamp/" target="_blank">Show all ></a>
+    </section>
+
+    <section id="contact">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+      <div class="contact-links">
+        <a class="contact-link" href="https://facebook.com/freecodecamp" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a>
+        <a id="profile-link" class="contact-link" href="https://github.com/freecodecamp" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        <a class="contact-link" href="https://twitter.com/freecodecamp"><i class="fab fa-twitter" target="_blank"></i>Twitter</a>
+        <a class="contact-link" href="mailto:example@example.com"><i class="fas fa-at" target="_blank"></i>Send a mail</a>
+        <a class="contact-link" href="tel:555-555-5555"><i class="fas fa-mobile-alt" target="_blank"></i>Call me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+    <p>© Created for freeCodeCamp </p>
+  </footer>
+
+</body>
+</html>
